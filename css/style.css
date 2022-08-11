@@ -11,15 +11,12 @@ body{
 
 header{
     display: inline-block;
-    margin: 0 10px;
+    /* margin: 0 10px; */
     background-color: #F8F9FA;
 }
 header nav{
     width: 100vw;
 }
-/* header nav>.bar {
-    display: inline-block;
-} */
 header .bar h1{
     display: inline-block; 
     
@@ -39,8 +36,8 @@ header button{
     float: right;
     margin-right: 20px;
     margin-top: -57px;
-
 }
+
 /* ---------------------------------BANER-------------------- */
 #baner img{
     width: 100%;
@@ -172,5 +169,44 @@ input{
 .form button{
     background-color: #5A6268;
     color: white;
-    
+    width: 80vw;
+    padding: 10px;
+    font-size: 1em;
+}
+/* -------------------map------------------ */
+#map{
+    margin: 0 50px;
+}
+#map iframe{
+    width: 650px;
+}
+#map h4{
+    font-size: 1.5em;
+    margin:  5px 0;
+}
+#map p{
+    margin: 0;
+}
+/* ---------------------footer-------------------------- */
+footer{
+    margin: 10px 50px;
+    background-color: #F8F9FA;
+    padding: 10px;
+}
+.info{
+    display: flex;
+    justify-content:space-between;
+}
+.info p {
+    font-size: 0.8em;
+    margin: auto 10px ;
+}
+.info i{
+    color: blue;
+    font-size: 1em;
+}
+
+.info a{
+    color: blue;
+    text-decoration: none;
 }
